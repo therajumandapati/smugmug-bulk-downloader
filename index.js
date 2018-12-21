@@ -5,7 +5,7 @@ function startDownload(url) {
     console.log(`Downloading: ${url}`);
     download.image({
             url,
-            dest: '/Users/rajumandapati/Documents/Dev/Experiments/image-downloader/images'
+            dest: './images'
         })
         .then(({
             filename,
